@@ -7,6 +7,8 @@
 
 int roll(){
 	srand((int)time(0));
+	std::cout << rand() << std::endl;
+	srand(rand());
 	return (rand() % 6) + 1;
 }
 #endif
