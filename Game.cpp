@@ -1,15 +1,18 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
 int main (){
-	srand((int)time(0));
-
-	int computer;
+	char buttonPress;
+	buttonPress = _getch();
 	
-	computer = (rand() % 6) + 1;
-	
-	cout << computer;
+	while (buttonPress != q){
+		if(buttonPress == 'r')
+			cout << "r was pressed" << endl;
+		else
 
+	}
+	
 	return 0;
 }
